@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE pricelist "C:\Users\antek\Desktop\ADMIN\Prezent_dla_mamy\XML\cennik.dtd"
+[
+	<!ELEMENT pricelist (product*)>
+	<!ELEMENT product (name,price,quantity,description)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ELEMENT quantity (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ENTITY author "ankiedos">
+	<!ATTLIST product workinghours CDATA #IMPLIED>
+]>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pricelistStyle.xsl"?>
+
+<!DOCTYPE pricelist SYSTEM "pricelistDTD.dtd"[
+<!ENTITY % company "cennik.dtd">
+<!ENTITY % companyowner "cennik.dtd">
+<!ENTITY % author "cennik.dtd">
+]>
+
+<pricelist>
+	<product workinghours="12:00-18:00">
+		<name> Photo - portret </name>
+		<price> 50.00 pounds </price>
+		<quantity> 10 </quantity>
+		<description> Portret - Photo Company; John Smith </description>
+	</product>
+	<product workinghours="8:00-20:00">
+		<name> Photo - group photo </name>
+		<price> 100.00 pounds </price>
+		<quantity> 5 </quantity>
+		<description> Group photo - Photo Company; John Smith </description>
+	</product>
+</pricelist>

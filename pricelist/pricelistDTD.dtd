@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<!DOCTYPE pricelist "C:\Users\antek\Desktop\ADMIN\Prezent_dla_mamy\XML\cennik.dtd"
+<!DOCTYPE pricelist "https://github.com/ankiedos/Some-XML/blob/main/pricelistDTD.dtd"
 [
 	<!ELEMENT pricelist (product*)>
 	<!ELEMENT product (name,price,quantity,description)>
